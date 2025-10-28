@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>DreamBox Math</title>
+  <meta name="robots" content="noindex">
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico" TYPE="image/x-icon">
+<style type="text/css">
+body { margin: 0px; overflow-x: hidden; overflow-y: hidden;height: 100%;}
+html { overflow-y: hidden; height: 100%;>}
+.getFlashHeadline, .whatNext {
+  font-family: Trebuchet MS, Arial, Sans-serif;
+}
+.getFlashHeadline {
+  font-size: 24px;
+  color: #FF9900;
+  font-weight:bold;
+  background-color: #ffffff;
+}
+.whatNext {
+  font-size: 12px;
+  color: #999999;
+}
+
+*:focus {
+  -moz-outline: 0px solid #FFFF00  !important;
+  -moz-outline-offset: 0px         !important;
+  -moz-outline-radius: 0px         !important;
+}
+
+#headerWrapper {background: image_url("dashboard/topTile.jpg");}
+
+.print { display: none; }
+@media print
+{
+  .no-print { display: none; }
+  .print { display: block; }
+}
+</style>
+
+<script src="/assets/application-7bd7f5bbfef81d8ad63adc1f332579866bc36096ae2924913e8dc9f548da1d13.js"></script>
+<script type="text/javascript">
+
+function closeWindow() {
+  removeUnloadBindings();
+  window.location.href = "/student/dblexit";
+}
+
+function closeWindowIOError(code, suffix) {
+  closeWindowErrorUrl("/play/ioerrors", code, suffix);
+}
+
+function closeWindowFatalError(code, suffix) {
+  closeWindowErrorUrl("/play/fatalerrors", code, suffix);
+}
+
+function closeWindowSetupParent() {
+  removeUnloadBindings();
+  window.location.href = "https://play.dreambox.com/dashboard/home/setup_parent_access";
+}
+
+function closeWindowRedirect(url) {
+  removeUnloadBindings();
+  window.location.href = url;
+}
+
+function closeWindowErrorUrl(url, code, suffix) {
+  var params = {}, params_ct = 0;
+  removeUnloadBindings();
+  if (!!code) {
+    params['code'] = code;
+    params_ct++;
+  }
+  if (!!suffix) {
+    params['suffix'] = suffix;
+    params_ct++;
+  }
+  if (params_ct > 0) {
+    url += '?' + $.param(params);
+  }
+  window.location.href = url;
+}
+
+function removeUnloadBindings() {
+  $(window).unbind('beforeunload');
+  removeFinalUnloadCalls();
+}
+
+function removeFinalUnloadCalls() {
+  $(window).unbind('unload');
+}
+
+function addFinalUnloadCall(settings /* object */) {
+  if(!settings || !settings.url) return;
+  if(!settings.dataType) settings.dataType = "text";
+  settings.headers = { "DBL-ClientInstanceId": "6c5a455b-3f1c-4a92-b599-54e7653185b2" };
+  $(window).bind('unload',function(e) {
+    $.ajax(settings);
+  });
+}
+
+$(window).bind('beforeunload', function(e) {
+});
+
+  // -----------------------------------------------------------------------------
+  // Ask the user if he/she really wants to close the page
+  $(window).bind('beforeunload', function(e) {
+    return "If you are playing a lesson, your progress will be lost."
+  });
+
+</script>
+</head>
+  <body bgcolor="#E7F2FE" onresize="onWindowResizedJS()" onLoad="onPageLoadedJS()">
+    <script language="JavaScript" type="text/javascript">
+      BrowserDetect.init();
+      if (BrowserDetect.browser == "Safari") {
+        if (BrowserDetect.OS == "Mac") {
+          expressInstallSwfUrl = undefined;
+        }
+      }
+    </script>
+
+    <div id="jscontent" style="position:relative; width:1024px; height:788px" width="1024" height="788" class="no-print">
+        <canvas id="lrt4BackgroundCanvas" width="1024" height="788" style="position:absolute; top:0; right:0; width:1024px; height:768px;"></canvas>
+        <canvas id="lrt4SpriteCanvas" width="1024" height="768" style="display:none; position:absolute; top:0; right:0; width:1024px; height:768px"></canvas>
+        <canvas id="lrt4LessonCanvas" width="1024" height="788" style="position:absolute; top:0; right:0; width:1024px; height:768px;"></canvas>
+        <div id="lrt4LessonDiv" style="position:absolute; transform-origin:top left; top:0; left:0; width:1024px; height:768px"></div>
+        <canvas id="lrt4EngagementCanvas" width="1024" height="788" style="position:absolute; top:0; right:0; width:1024px; height:768px;"></canvas>
+        <div id="htmlcontent" width="1024" height="768" style="position:absolute; top:0; right:0; width:1024px; height:768px; pointer-events:none;"></div>
+        <div id="copyright" width="1024" height="20" style="position:absolute; top:0; right:0; width:1024px; height:20px"></div>
+    </div>
+    <div id="printcontent" class="print">
+    </div>
+    <script>
+
+    function onPageLoadedJS() {
+        var audienceType = null;
+        var cfgoals = false;
+        var lesson = null;
+        var engagement = "neon";
+        var exp = "";
+        var url = "https://static.dreambox.com/content/ld_21_6_2/runtime/run.html?session=29dd32a2fe3b68f62fa1e533037e5989" +
+        "&api=2.0" +
+        "&engagement=" + engagement +
+        "&application=1" +
+        "&lcid=1033" +
+        "&avatar=boy013" +
+        "&username=" + encodeURIComponent("Bryan") +
+        "&parentlink=" + "true" +
+        (audienceType ? "&audiencetype=" + audienceType : "") +
+        (lesson ? "&lesson=" + lesson : "") +
+        "&arcade=true" +
+        "&myhouse=true" +
+        "&personalization=true" +
+        "&collections=true" +
+        "&achievements=true" +
+        "&stats=true" +
+        "&clientinstance=6c5a455b-3f1c-4a92-b599-54e7653185b2" +
+        "&authsession=e4de13c1-a826-473f-b801-80af3bc7d552" +
+        "&studentid=28095478" +
+        "&retrystaticrequests=true" +
+        "&retryserverrequests=true" +
+        "&unhandlednotfatal=true" +
+        "&rating=10" +
+        "&altrating=2" +
+        "&autosave=true" +
+        "&tts=true" +
+        "&messaging=true" +
+        "&sendmessages=true" +
+        "&sendfeedback=true" +
+        "&clientevents=true" +
+        "&qosevents=true" +
+        "&qoskeystitration=" + encodeURIComponent("") +
+        "&playservice=" + encodeURIComponent("play.dreambox.com") +
+        (cfgoals ? "&cfgoals=true" : "&cfgoals=false") +
+        (exp ? "&exp=" + exp : "") +
+        "&transcript=true" +
+        "&lessonfeedbackoptin=true" +
+        "&lessonfeedbackrandom=true" +
+        "&gatespreview=false" +
+        "&gatesbanners=false" +
+        "&gatesrepeatproblems=false" +
+        "&gatesworld=false" +
+        "&gatessurvey=" +
+        "" +
+        "&staticmap=math-1@m1_2_8_0,math-2@m2_2_9_0,math-3@m3_2_8_4,early-literacy@el_2_7_0" +
+        "" +
+        "" +
+        "&country=" + encodeURIComponent("US") +
+        "&region=" + encodeURIComponent("NY") +
+        "" +
+        "" +
+        "&staticversion=20251015083403";
+
+        loadHTML(url);
+    }
+    
+    function onWindowResizedJS() {
+        resizeHelper();
+    }
+
+    var bodyScale, bodyWidth, bodyHeight;
+    
+    function resizeHelper() {
+        var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth; // || stuff for IE 7 and 8 support
+        var h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+        var wScale = w/1024;
+        var hScale = h/788;
+        var scale;
+        if (wScale < hScale) {
+            // width-constrained
+            scale = wScale;
+        } 
+        else {
+            // height-constrained
+            scale = hScale;
+        }
+        // minimum size
+        scale = Math.max(scale, 0.25);
+        var wScaled = Math.ceil(1024*scale);
+        var hScaled = Math.ceil(768*scale);
+        var x = Math.floor((w - wScaled) / 2);
+        
+        var pixelRatio = window.devicePixelRatio >= 2 ? 2 : 1;
+
+        var backgroundCanvas = document.getElementById("lrt4BackgroundCanvas");
+        if (backgroundCanvas) {
+            backgroundCanvas.width = wScaled * pixelRatio;
+            backgroundCanvas.height = hScaled * pixelRatio;
+            backgroundCanvas.style.width = wScaled+"px";
+            backgroundCanvas.style.height = hScaled+"px";
+            backgroundCanvas.style.left = x + "px";
+        }
+        var spriteCanvas = document.getElementById("lrt4SpriteCanvas");
+        if (spriteCanvas) {
+            spriteCanvas.width = wScaled * pixelRatio;
+            spriteCanvas.height = hScaled * pixelRatio;
+            spriteCanvas.style.width = wScaled+"px";
+            spriteCanvas.style.height = hScaled+"px";
+            spriteCanvas.style.left = x + "px";
+        }
+
+        var lessonCanvas = document.getElementById("lrt4LessonCanvas");
+        lessonCanvas.width = wScaled * pixelRatio;
+        lessonCanvas.height = hScaled * pixelRatio;
+        lessonCanvas.style.width = wScaled+"px";
+        lessonCanvas.style.height = hScaled+"px";
+        lessonCanvas.style.left = x + "px";
+        var htmlLessonDiv = document.getElementById("lrt4LessonDiv");
+        htmlLessonDiv.style.scale = scale.toString();
+        htmlLessonDiv.style.left = x + "px";
+        htmlLessonDiv.style.top = "0px";
+        var engagementCanvas = document.getElementById("lrt4EngagementCanvas");
+        engagementCanvas.width = wScaled * pixelRatio;
+        engagementCanvas.height = hScaled * pixelRatio;
+        engagementCanvas.style.width = wScaled+"px";
+        engagementCanvas.style.height = hScaled+"px";
+        engagementCanvas.style.left = x + "px";
+        var htmlcontentdiv = document.getElementById("htmlcontent");
+        htmlcontentdiv.width = wScaled;
+        htmlcontentdiv.height = hScaled;
+        htmlcontentdiv.style.width = wScaled+"px";
+        htmlcontentdiv.style.height = hScaled+"px";
+        htmlcontentdiv.style.left = x + "px";
+        var copyrightdiv = document.getElementById("copyright");
+        copyrightdiv.width = wScaled;
+        copyrightdiv.height = hScaled;
+        copyrightdiv.style.width = wScaled+"px";
+        copyrightdiv.style.height = hScaled+"px";
+        copyrightdiv.style.top = hScaled + "px";
+        copyrightdiv.style.left = x + "px";
+        var jscontentdiv = document.getElementById("jscontent");
+        jscontentdiv.width = wScaled;
+        jscontentdiv.height = hScaled;
+        jscontentdiv.style.width = wScaled+"px";
+        jscontentdiv.style.height = hScaled+"px";
+
+        call("runtime", "call", "resize", []); // may be a no-op if runtime not loaded
+    }
+    </script>
+  </body>
+</html>

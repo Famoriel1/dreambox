@@ -1,0 +1,15 @@
+signature,language,script,files,condition
+helpBadges,english,"This is the My Stuff badges page. You earn badges when you do good work and try your best. Rollover each badge to see how to earn it.",HelpBadges
+helpBadges,spanish,Esta es la página de insignias de Mis cosas. Recibes insignias como premio a tu buen trabajo y gran esfuerzo. Desplace el puntero sobre cada insignia para averiguar cómo ganarla.,HelpBadges
+helpAchievements,english,"This is the My Stuff achievements page.",HelpAchievements
+helpAchievements,spanish,"This is the My Stuff achievements page.",HelpAchievements
+helpPersonalize,english,"This is where you can personalize your DreamBox experience. Spend coins to switch your avatar, change the music you hear between pages, or choose a new wallpaper for your background.",HelpPersonalize
+helpPersonalize,spanish,"Esta es el área de personalización de cosas donde puedes personalizar tu experiencia en DreamBox. Usa las monedas que obtuviste jugando las matemáticas para cambiar tu avatar, la música que escuchas entre las páginas, o el fondo.",HelpPersonalize
+helpCollections,english,"This is the My Stuff collections area. When you earn four collection pieces over time, you unlock a minigame.",HelpCollections
+helpCollections,spanish,"Esta es el área de colecciones de Mis cosas. Cuando ganas cuatro piezas de colección en cierto tiempo, habilitas un mini-juego.",HelpCollections
+helpLessonChooserCoolFrost,english,"This is where you choose which lessons to play.",HelpLessonChooserCoolFrost
+helpLessonChooserCoolFrost,spanish,"Aquí es donde puedes elegir cuales lecciones quieres jugar.",HelpLessonChooserCoolFrost
+helpLessonChooserPaperFrenzy,english,This is where you choose which lessons to play.,HelpLessonChooserPaperFrenzy
+helpLessonChooserPaperFrenzy,spanish,Aquí es donde puedes elegir cuales lecciones quieres jugar.,HelpLessonChooserPaperFrenzy
+helpLessonChooserNeon,english,"This is where you choose which lessons to play.",HelpLessonChooserNeon
+helpLessonChooserNeon,spanish,"Aquí es donde puedes elegir cuales lecciones quieres jugar.",HelpLessonChooserNeon

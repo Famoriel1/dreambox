@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Verdana';
+    src: url('verdana.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Verdana';
+    src: url('verdana-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}

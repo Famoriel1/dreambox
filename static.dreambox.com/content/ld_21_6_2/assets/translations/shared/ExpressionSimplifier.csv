@@ -1,0 +1,25 @@
+unique_key,english,spanish
+EXP_or,or,o
+EXP_plus,plus,más
+EXP_minus,minus,menos
+EXP_negative,negative,menos
+EXP_plusminus,plusminus,mas menos
+EXP_isLessThan,is less than,es menor que
+EXP_isLessThanOrEqualTo,is less than or equal to,es menor o igual a
+EXP_isGreaterThan,is greater than,es mayor que
+EXP_isGreaterThanOrEqualTo,is greater than or equal to,es mayor o igual a
+EXP_times,times,multiplicado por
+EXP_timesFeminine,times,multiplicada por
+EXP_toThePowerOf,to the power of,elevado a la potencia de
+EXP_and,and,y
+EXP_aHalf,a half,medio
+EXP_oneHalf,one-half,un medio
+EXP_dividedBy,divided by,divido por
+EXP_absoluteValueOf,absolute value of,el valor absoluto de
+EXP_theQuantity,the quantity,la cantidad
+EXP_isEqualTo,is equal to,es igual
+EXP_squareRoot,square root of,raiz cuadrada de
+EXP_cubeRoot,cube root of,raiz cubica de
+EXP_root,root of,raiz de
+EXP_blank,blank,en blanco
+EXP_Blank,Blank,En blanco

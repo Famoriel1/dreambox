@@ -1,0 +1,64 @@
+{
+    "symbolName": "LessonButton_Vertical",
+    "type": "Button",
+    "tree": {
+        "children": {
+            "pnlBackground": {
+                "type": "Clip"
+            },
+            "prxLessonIcon": {
+                "type": "ProxyContainer",
+                "ignoreScale": true,
+                "scaleX": 0.60,
+                "scaleY": 0.60,
+                "centerX": true,
+                "centerY": true,
+                "proxyWidth": 80,
+                "proxyHeight": 80
+            },
+            "astTitle": {
+                "meta": {
+                    "align": {
+                        "vertical": "center",
+                        "horizontal": "center",
+                        "bounds": {
+                            "x": 3,
+                            "y": 117,
+                            "width": 178,
+                            "height": 64
+                        }
+                    }
+                },
+                "children": {
+                    "lblTitle": {
+                        "type": "Label",
+                        "visible": false
+                    }
+                }
+            },
+            "astTag": {
+                "children": {
+                    "prxTag": {
+                        "type": "Proxy",
+                        "meta": {
+                            "maxWidth": 170,
+                            "radius" : 11,
+                            "height": 22
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "symbolLibrary": {
+        "ClickPulseAnimation": {
+            "symbol": "PulseAnimation_Vertical"
+        },
+        "lessonComplete": {
+            "symbol": "LessonCompleteAnimation"
+        },
+        "tagContent": {
+            "symbol": "Tag_Content"
+        }
+    }
+}

@@ -1,0 +1,324 @@
+signature_unique,english,english_gb,spanish
+IA1,Rounding to the Nearest Tens Place,Rounding to the Nearest Tens Place,Redondeando al lugar de las decenas
+IA2,Multiples of 10 on a Number Line,Multiples of 10 on a Number Line,Redondeando al lugar de las decenas
+P01A,Comparing 1 to 10,Comparing 1 to 10,Comparación 1 - 10
+P02A,Building 1 to 10,Building 1 to 10,Formación 1 - 10
+P02C,Identifying Missing Addend,Identifying Missing Addend,Suma: Valores que faltan
+P02D,Identifying Objects 1 to 10,Identifying Objects 1 to 10,Identificación de objetos 1 - 10
+P02E,Building 1 to 10 Optimally,Building 1 to 10 Optimally,Formación óptima 1 - 10
+P02F,Quick Images 1 to 10,Quick Images 1 to 10,Imágenes rápidas 1 - 10
+P03A,Building Decades: Hundreds Chart,Building Decades: Hundreds Chart,Formación de décadas: Cuadro de centenas
+P03B,Ordering Numbers 1 to 100,Ordering Numbers 1 to 100,Ordenar números 1 - 100
+P04A,Doubles and Near Doubles,Doubles and Near Doubles,Dobles y casi dobles
+P04B,Identifying Number Partners,Identifying Number Partners,Identificación de socios numéricos
+P04C,Doubling 1 to 20,Doubling 1 to 20,Duplicación 1 - 20
+P05A,Identifying Numbers 11 to 20,Identifying Numbers 11 to 20,Identificación de números 11 - 20
+P05C,Comparing Numbers 11 to 100,Comparing Numbers 11 to 100,Comparación de números 1 - 100
+P05D,Identifying Numbers 11 to 100,Identifying Numbers 11 to 100,Identificación de números 11 - 100
+P05E,Identifying Tenframe 21 to 50,Identifying Tenframe 21 to 50,Identificación de grillas de diez 21 - 50
+P05F,Identifying Mathrack 21 to 50,Identifying Mathsrack 21 to 50,Identificación de repisas matemáticas 21 -50
+P06A,Building on a Hundreds Chart I,Building on a Hundreds Chart I,Formación en el cuadro de centenas I
+P06B,Building on a Hundreds Chart II,Building on a Hundreds Chart II,Formación en el cuadro de centenas II
+P06C,Moving on a Hundreds Chart,Moving on a Hundreds Chart,Moviéndose en un cuadro de centenas
+P06D,Comparing and Equality 1 to 100,Comparing and Equality 1 to 100,Comparación e igualdad 1 - 100
+P06E,Place Value 1 to 100,Place Value 1 to 100,Valor posicional 1 - 100
+P07A,Add and Subtract: Near Doubles,Add and Subtract: Near Doubles,Sumar y restar: Casi dobles
+P07B,Identifying Doubles and Near Doubles,Identifying Doubles and Near Doubles,Identificación de dobles y casi dobles
+P07C,Early Adding and Subtracting,Early Adding and Subtracting,Suma y resta en educación inicial
+P08A,Matching Make 10 to 100,Matching Make 10 to 100,Emparejando 10 - 100
+P09A,Making Equal Groups 10 to 100,Making Equal Groups 10 to 100,Formación de grupos iguales 10-100
+P09B,Comparing and Equality: Snap Blocks,Comparing and Equality: Snap Blocks,Comparación e igualdad: bloques para ensamblar
+P09C,Comparing Numbers with Allie,Comparing Numbers with Allie,Comparando números con allie
+P09D,Place Value to 500,Place Value to 500,Valor posicional a 500
+P09E,Building Equal Groups: Snap Blocks,Building Equal Groups: Snap Blocks,Formar grupos iguales: Bloques para ensamblar
+P09F,True or False: Snap Blocks,True or False: Snap Blocks,Verdadero o falso: Bloques para ensamblar
+P10A,Adding and Subtracting Tens,Adding and Subtracting Tens,Suma y resta de decenas
+P10B,Multiples of Ten: Hundreds Chart,Multiples of Ten: Hundreds Chart,Múltiplos de diez: Cuadro de centenas
+P10C,Add and Subtract: Function Machine,Add and Subtract: Function Machine,Sumar-restar: Máquina de operaciones matemáticas
+P11A,Skip Counting: Function Machine,Skip Counting: Function Machine,Contar de 2 en 2: Máquina matemática
+P11B,Skip Counting: Open Number Line,Skip Counting: Open Number Line,Contar de 2 en 2: Recta numérica abierta
+P11C,Hundreds Chart 101 to 500,Hundreds Chart 101 to 500,Cuadro de centenas 101 - 500
+P12A,Making Multiples of 10,Making Multiples of 10,Formación de múltiplos de 10
+P12B,Add and Subtract: Jump by Tens,Add and Subtract: Jump by Tens,Sumar y restar: Saltar de a decenas
+P12C,Open Number Line: Negative Numbers,Open Number Line: Negative Numbers,Recta numérica abierta: Números negativos
+P12D,Function Machine: Negative Numbers,Function Machine: Negative Numbers,Máquina de operaciones: Números negativos
+P13B,Compensation and Splitting,Compensation and Splitting,Compensación y división
+P13C,"Place Value to 1,000","Place Value to 1,000",Valor posicional a 1000
+P14A,Add and Subtract: Landmark Numbers,Add and Subtract: Landmark Numbers,Sumar y restar: Números redondos
+P14B,"Building and Comparing to 1,000","Building and Comparing to 1,000",Formación y comparación a 1000
+P15A,Constant Difference,Constant Difference,Diferencia constante
+P16A,"Place Value to 9,999","Place Value to 9,999",Valor posicional hasta 9999
+P17A,Multiplication and Division Situations,Multiplication and Division Situations,Situaciones de multiplicación y división
+P17B,Early Multiplication,Early Multiplication,Multiplicación para educación inicial
+P18A,Multiplication: Doubling,Multiplication: Doubling,Multiplicación: Duplicar
+P19A,Multiplication: Add and Remove Groups,Multiplication: Add and Remove Groups,Multiplicación: Agregar y quitar grupos
+P20A,Multiplication: Double and Halve,Multiplication: Double and Halve,Multiplicación: Doble y mitad
+P21A,Multiplication: Partial Products,Multiplication: Partial Products,Multiplicación: Productos parciales
+P22A,Blueprints and Arrays,Blueprints and Arrays,Planos y conjuntos
+P23A,Strings: Open Number Line,Strings: Open Number Line,Series: Recta numérica abierta
+P23B,Strings: Snap Blocks,Strings: Snap Blocks,Series: Bloques para ensamblar
+P24A,Common Multiples,Common Multiples,Múltiplos comunes
+P24B,Identifying Factors,Identifying Factors,Identificación de factores
+P25,Make and Compare Rods,Make and Compare Rods,Hacer y comparar fracciones
+P25_video,Part of the Whole,Part of the Whole,Parte del entero
+P26,Multiply and Divide: Ratio Table,Multiply and Divide: Ratio Table,Multiplicar y dividir: Tabla de proporciones
+P27,Fractions on a Number Line,Fractions on a Number Line,Fracciones en una recta numérica
+P28,Early Equivalency I,Early Equivalency I,Equivalencias de educación inicial I
+P29,Decomposing Fractions,Decomposing Fractions,Descomposición de fracciones
+P30,Fractions: Money and Time,Fractions: Money and Time,Fracciones: Dinero y tiempo
+P31,Fractions: Choose Context,Fractions: Choose Context,Fracciones: Elegir el contexto
+P32,Early Equivalency II,Early Equivalency II,Equivalencias de educación inicial II
+P33,Fractions in the Real World I,Fractions in the Real World I,Las fracciones en la vida real I
+P33_video,Fractions in the Real World,Fractions in the Real World,Fracciones en el mundo real
+P34,Comparing Fractions I,Comparing Fractions I,Comparación de fracciones I
+P34_video,Cookie Comparison,Cookie Comparison,Comparar galletas
+P35,Fractions in the Real World II,Fractions in the Real World II,Las fracciones en la vida real II
+P37,Comparing Fractions II,Comparing Fractions II,Comparación de fracciones II
+P38,Adding Fractions,Adding Fractions,Suma de fracciones
+P39,Subtracting Fractions,Subtracting Fractions,Resta de fracciones
+P39_video,Break the Whole,Break the Whole,Dividir el entero
+P40,Multiplying Fractions,Multiplying Fractions,Multiplicación de fracciones
+P41,"Multiplication: Arrays to 1,000","Multiplication: Arrays to 1,000",Multiplicación: Conjuntos hasta 1000
+P41_video,The Art of Finding Area,The Art of Finding Area,El arte de encontrar el área
+P42,Division: Arrays to 600,Division: Arrays to 600,División: Conjuntos hasta 600
+P43,"Multiplication: Arrays to 100,000","Multiplication: Arrays to 100,000",Multiplicación: Conjuntos hasta 100.000
+P44,Addition Standard Algorithm,Written Method for Addition,Algoritmo estándar de la suma
+P44_video,Addition Action Avengers I,Addition Action Avengers I,Los vengadores sumadores I
+P45,Subtraction Standard Algorithm,Written Method for Subtraction,Algoritmo estándar de resta
+P45_video,Super Subtraction Squad I,Super Subtraction Squad I,Súper escuadrón de restar I
+P46,Exploring Arrays to 600,Exploring Arrays to 600,Exploración de conjuntos hasta 600
+P47A,Division and Remainders I,Division and Remainders I,División y restos I
+P47B,Division and Remainders II,Division and Remainders II,División y restos II
+P49,Multiplication Standard Algorithm,Written Method for Multiplication,Algoritmo estándar de multiplicación
+P50,Multiplication: Open Arrays,Multiplication: Open Arrays,Multiplicación: Conjuntos abiertos
+P51,Multiplication: Fractions and Arrays,Multiplication: Fractions and Arrays,Multiplicación: Fracciones y conjuntos
+P52A,Dividing Fractions I,Dividing Fractions I,División de fracciones I
+P52B,Dividing Fractions I,Dividing Fractions I,División de fracciones I
+P53,Place Value: Decimals,Place Value: Decimals,Valor posicional: Decimales
+P54A,Integers on the Number Line,Integers on the Number Line,Enteros en la recta numérica
+P54B,Decimals on the Number Line,Decimals on the Number Line,Decimales en la recta numérica
+P54B_video,Decimals Labs: Scale Laser,Decimals Labs: Scale Laser,Laboratorios de decimales: El láser de tamaños
+P55,Equivalent Fractions on the Number Line,Equivalent Fractions on the Number Line,Fracciones equivalentes en la recta numérica
+P56A,Add and Subtract on the Number Line,Add and Subtract on the Number Line,Suma y resta en la recta numérica
+P56B,Decimal Addition and Subtraction,Decimal Addition and Subtraction,Suma y resta de decimales
+P56C,Add and Subtract Negative Numbers,Add and Subtract Negative Numbers,Sumar y restar números negativos
+P56D,Add and Subtract Negative Decimals,Add and Subtract Negative Decimals,Sumar y restar decimales negativos
+P57A,Fluency: Addition & Subtraction,Fluency: Addition & Subtraction,Dominio: Suma y resta
+P57B,Round & Compare Whole Numbers,Round & Compare Whole Numbers,Redondear y comparar números enteros
+P57C,Fluency: Fractions & Decimals,Fluency: Fractions & Decimals,Dominio: Fracciones y decimales
+P57D,Round & Compare Fractions & Decimals,Round & Compare Fractions & Decimals,Redondear y comparar fracciones y decimales
+P57E,Fluency: Integers,Fluency: Integers,Dominio: Enteros
+P57F,Round & Compare Integers,Round & Compare Integers,Redondear y comparar enteros
+P57G,Fluency: Rational Numbers,Fluency: Rational Numbers,Dominio: Números racionales
+P57H,Round & Compare Rational Numbers,Round & Compare Rational Numbers,Redondear y comparar números racionales
+P58A,Multiplying Decimals with Arrays,Multiplying Decimals with Arrays,Multiplicación de decimales con conjuntos
+P58B,Distributive Property with Variables,Distributive Property with Variables,Propiedad distributiva con variables
+P59,Calculating Percentages,Calculating Percentages,Cálculo de porcentajes
+P60,Multiply and Divide with Decimals,Multiply and Divide with Decimals,Multiplicar y dividir con decimales
+P61A,Whole Number Addition Strategies,Whole Number Addition Strategies,Estrategias para la suma de números enteros
+P61A_video,Addition Action Avengers II,Addition Action Avengers II,Los vengadores sumadores II
+P61B,Whole Number Subtraction Strategies,Whole Number Subtraction Strategies,Estrategias para la resta de números enteros
+P61B_video,Super Subtraction Squad II,Super Subtraction Squad II,Súper escuadrón de restar II
+P61C,Decimal Addition Strategies,Decimal Addition Strategies,Estrategias para la suma de decimales
+P61D,Decimal Subtraction Strategies,Decimal Subtraction Strategies,Estrategias para la resta de decimales
+P62,Decimal Points in Products & Quotients,Decimal Points in Products & Quotients,Punto decimal en productos y cocientes
+P63A,Division Standard Algorithm,Written Method for Division,Algoritmo estándar de división
+P63B,Division Standard Algorithm: Decimals,Written Method for Division: Decimals,Algoritmo estándar de división: Decimales
+P64A,Using Clocks & Telling Time I,Using Clocks & Telling Time I,Uso del reloj y decir la hora I
+P64B,Using Clocks & Telling Time II,Using Clocks & Telling Time II,Uso del reloj y decir la hora II
+P64C,Add & Subtract Time,Add & Subtract Time,Sumar y restar tiempo
+P64D,Elapsed Time,Elapsed Time,Tiempo transcurrido
+P65A,Angle Measurement & Rotation,Angle Measurement & Rotation,Medición de ángulos y rotación
+P65B,"Compose, Add, & Subtract Angles","Compose, Add, & Subtract Angles","Componer, sumar y restar ángulos"
+P65C,Advanced Angle Relationships,Advanced Angle Relationships,Relaciones de ángulos avanzadas
+P66A,Represent Data by Categories: Tally Chart,Represent Data by Categories: Tally Chart,Representa datos por categorías: Gráfico de marcas
+P66B,Represent Data by Categories: Picture Graph,Represent Data by Categories: Pictogram,Representa datos por categorías: Gráfico
+P66C,Represent Data by Categories: Bar Graph,Represent Data by Categories: Bar Graph,Representa datos por categorías: Gráfico de barras
+P66D,Create and Interpret Line Plots,Create and Interpret Line Plots,Crea y interpreta gráficos de líneas
+P66E,Create and Analyze Line Plots,Create and Analyse Line Plots,Crea y analiza gráficos de líneas
+P67A,Ratios in Context,Ratios in Context,Proporciones en contexto
+P67B,Ratios with Fractions,Ratios with Fractions,Proporciones con fracciones
+P68A,"Multiply By 0,1,5,10: Automaticity I","Multiply By 0,1,5,10: Fluency I","Multiplicar por 0, 1, 5, 10: Automatización I"
+P68B,"Multiply By 0,1,5,10: Automaticity II","Multiply By 0,1,5,10: Fluency II","Multiplicar por 0, 1, 5, 10: Automatización II"
+P68C,"Multiply By 2,4,8: Automaticity I","Multiply By 2,4,8: Fluency I","Multiplicar por 2, 4, 8: Automatización I"
+P68D,"Multiply By 2,4,8: Automaticity II","Multiply By 2,4,8: Fluency II","Multiplicar por 2, 4, 8: Automatización II"
+P68E,"Multiply By 3,6,12: Automaticity I","Multiply By 3,6,12: Fluency I","Multiplicar por 3, 6, 12: Automatización I"
+P68F,"Multiply By 3,6,12: Automaticity II","Multiply By 3,6,12: Fluency II","Multiplicar por 3, 6, 12: Automatización II"
+P68G,"Multiply By 9,10,11: Automaticity I","Multiply By 9,10,11: Fluency I","Multiplicar por 9, 10, 11: Automatización I"
+P68H,"Multiply By 9,10,11: Automaticity II","Multiply By 9,10,11: Fluency II","Multiplicar por 9, 10, 11: Automatización II"
+P68I,"Multiply By 5,15,25: Automaticity I","Multiply By 5,15,25: Fluency I","Multiplicar por 5, 15, 25: Automatización I"
+P68J,"Multiply By 7,14,15: Automaticity I","Multiply By 7,14,15: Fluency I","Multiplicar por 7, 14, 15: Automatización I"
+P68K,Beyond Times Tables: Automaticity I,Beyond Times Tables: Fluency I,Automatización I
+P68L,Beyond Times Tables: Automaticity II,Beyond Times Tables: Fluency II,Automatización II
+P68M,Add & Subtract Integers: Automaticity I,Add & Subtract Integers: Fluency I,Sumar y restar enteros: Automatización I
+P68N,Add & Subtract Integers: Automaticity II,Add & Subtract Integers: Fluency II,Sumar y restar enteros: Automatización II
+P68O,Multiply & Divide Integers: Fluency I,Multiply & Divide Integers: Fluency I,Multiplicar y dividir enteros: Dominio I
+P68P,Multiply & Divide Integers: Fluency II,Multiply & Divide Integers: Fluency II,Multiplicar y dividir enteros: Dominio II
+P71A,Adding Integers,Adding Integers,Suma de enteros
+P71B,Subtracting Integers,Subtracting Integers,Resta de enteros
+P71C,Multiplying Integers,Multiplying Integers,Multiplicación de enteros
+P71D,Dividing Integers,Dividing Integers,División de enteros
+P71E,Integers and Inequalities,Integers and Inequalities,Números enteros y desigualdades
+P71F,Absolute Value,Absolute Value,Valor absoluto
+P72A,Coordinate Grids: Locate & Measure,Coordinate Grids: Locate & Measure,Grillas de coordenadas: Localizar y medir
+P72B,Coordinate Grids: Lines of Symmetry,Coordinate Grids: Lines of Symmetry,Grillas de coordenadas: Líneas de simetría
+P72C,Coordinate Grids: Lines of Reflection,Coordinate Grids: Lines of Reflection,Grillas de coordenadas: Líneas de reflexión
+P72D,"Graphs, Tables, and Lines","Graphs, Tables, and Lines","Gráficas, tablas y líneas"
+P72E,"Equations, Tables, and Lines","Equations, Tables, and Lines","Ecuaciones, tablas y líneas"
+P72F,"Equations, Graphs, and Lines","Equations, Graphs, and Lines","Ecuaciones, gráficas y líneas"
+P73A,Order Of Operations 1,Order Of Operations 1,Orden de las operaciones 1
+P73B,Order Of Operations 3: Exponents,Order Of Operations 3: Indices,Orden de las operaciones 3: Exponentes
+P73C,Integer Operations 1,Integer Operations 1,Operaciones con enteros 1
+P73D,Order of Operations 2: Parentheses,Order of Operations 2: Brackets,Orden de las operaciones 2: Los paréntesis
+P73E,Integer Operations 2,Integer Operations 2,Operaciones con números enteros 2
+P74A,The Coordinate Plane with Decimals 1,The Coordinate Plane with Decimals 1,El plano de coordenadas con decimales 1
+P74B,The Coordinate Plane with Decimals 2,The Coordinate Plane with Decimals 2,El plano de coordenadas con decimales 2
+P74C,Linear & Local Rate of Change,Linear & Local Rate of Change,Razón de cambio lineal y local
+P74D,Applying Linear Rate of Change,Applying Linear Rate of Change,Aplicación de la razón de cambio lineal
+P74E,The Pythagorean Theorem,The Pythagorean Theorem,El Teorema de Pitágoras
+P74F,Linear Intersections & Intercepts,Linear Intersections & Intercepts,Puntos de intersección lineales
+P74G,Non-Linear Intercepts & Extremes,Non-Linear Intercepts & Extremes,Intersecciones no lineales y extremos
+P75A,Operations Fluency 1,Operations Fluency 1,Dominio en las operaciones 1
+P75B,Operations Fluency 3: Exponents,Operations Fluency 3: Indices,Dominio en las operaciones 3: Exponentes
+P75C,Operations Fluency 2: Parentheses,Operations Fluency 2: Brackets,Dominio en las operaciones 2: Paréntesis
+P75D,Operations Fluency 4,Operations Fluency 4,Dominio en las operaciones 4
+P75E,Solving Equations with 1 Variable,Solving Equations with 1 Variable,Resolución de ecuaciones de 1 variable
+P75F,Scaling by Powers of Ten,Scaling by Powers of Ten,Multiplicación por potencias de diez
+P75G,Scientific Notation,Standard form,Notación científica
+P75G_video,What is Scientific Notation?,What is Standard form?,¿Qué es la notación científica?
+P76A,Coordinates of Linear Functions,Coordinates of Linear Functions,Coordenadas de funciones lineales
+P76B,Change in Linear Functions,Change in Linear Functions,Cambios en funciones lineales
+P76C,Linear Function Notation,Linear Function Notation,Notación de funciones lineales
+P76D,Coordinates of Quadratics and Cubics,Coordinates of Quadratics and Cubics,Coordenadas de funciones cuadráticas y cúbicas
+P76E,Change in Quadratics and Cubics,Change in Quadratics and Cubics,Cambios en funciones cuadráticas y cúbicas
+P76F,Quadratic and Cubic Functions,Quadratic and Cubic Functions,Funciones cuadráticas y cúbicas
+P76G,Coordinates of Quartics and Quintics,Coordinates of Quartics and Quintics,Coordenadas de funciones de cuarto y quinto grado
+P76H,Change in Quartics and Quintics,Change in Quartics and Quintics,Cambios en funciones de cuarto y quinto grado
+P76I,Quartic and Quintic Functions,Quartic and Quintic Functions,Funciones de cuarto y quinto grado
+P76J,Functions with Double Roots,Functions with Double Roots,Funciones con raíz doble
+P76K,Functions with Triple Roots,Functions with Triple Roots,Funciones con raíz triple
+P76L,Mission: Change in Functions,Mission: Change in Functions,Misión: Cambios en las funciones
+P76M,Mission: Using Function Notation,Mission: Using Function Notation,Misión: Utilizando la notación de funciones
+P76N,Mission: Functions and Coordinates,Mission: Functions and Coordinates,Misión: Funciones y coordenadas
+P76O,Lines of Best Fit,Lines of Best Fit,Rectas de ajuste óptimo
+P76P,Curves of Best Fit,Curves of Best Fit,Curvas de ajuste óptimo
+P77A,Multiplication with Arrays & Landmarks I,Multiplication with Arrays & Landmarks I,Multiplicación de conjuntos y números redondos I
+P77B,Multiplication with Arrays & Landmarks II,Multiplication with Arrays & Landmarks II,Multiplicación de conjuntos y números redondos II
+P77C,Quadratic Expressions & Arrays I,Quadratic Expressions & Arrays I,Ecuaciones cuadráticas y conjuntos I
+P77D,Quadratic Expressions & Arrays II,Quadratic Expressions & Arrays II,Ecuaciones cuadráticas y conjuntos II
+P77E,Factoring & Expanding Quadratics,Factorising & Expanding Quadratics,Factorización y desarrollo de ecuaciones cuadráticas
+P77F,Multi-Variable Expressions & Arrays,Multi-Variable Expressions & Arrays,Expresiones con múltiples variables y conjuntos
+P78A,Simplifying Expressions With Variables,Simplifying Expressions With Variables,Smplificando expresiones involucrando variables
+P78B,Evaluating Expressions With Variables,Evaluating Expressions With Variables,Evaluando expresiones involucrando variables
+P78C,Simplifying Variable Expressions With Integers,Simplifying Variable Expressions With Integers,Simplificando expresiones variables con enteros
+P78D,Evaluating Variable Expressions With Integers,Evaluating Variable Expressions With Integers,Evaluando expresiones variables con enteros
+P78E,Simplifying Variable Expressions with Distribution,Simplifying Variable Expressions with Distribution,Simplificando expresiones variables con distribución
+P78F,Evaluating Variable Expressions with Distribution,Evaluating Variable Expressions with Distribution,Evaluando expresiones variables con distribución
+P78G,Simplifying Variable Expressions With Exponents,Simplifying Variable Expressions With Indices,Simplificando expresiones variables con exponentes
+P78H,Evaluating Variable Expressions With Exponents,Evaluating Variable Expressions With Indices,Evaluando expresiones variables con exponentes
+P80A,Constructing Special Types of Triangles,Constructing Special Types of Triangles,Construyendo triángulos especiales
+P80B,Constructing Concave and Convex Polygons,Constructing Concave and Convex Polygons,Construyendo polígonos cóncavos y convexos
+P80C,Constructing Quadrilaterals,Constructing Quadrilaterals,Construyendo cuadriláteros
+P80D,Measuring Interior Angles of Polygons,Measuring Interior Angles of Polygons,Midiendo los ángulos interiores de los polígonos
+P80E,Constructing and Measuring Polygons,Constructing and Measuring Polygons,Construyendo y midiendo polígonos
+P80F,Constructing Similar Polygons,Constructing Similar Polygons,Construyendo polígonos similares
+P80G,Constructing Regular Polygons,Constructing Regular Polygons,Construyendo polígonos regulares
+P80H,Classifying Figures,Classifying Shapes,Clasificación de figuras
+P80I,Classifying Figures By Dimension,Classifying Shapes By Dimension,Clasificación de figuras según su dimensión
+P80J,Classifying Polygons,Classifying Polygons,Clasificación de polígonos
+P80K,Classifying Regular Polygons,Classifying Regular Polygons,Clasificación de polígonos regulares
+P80L,Classifying Quadrilaterals,Classifying Quadrilaterals,Clasificación de cuadriláteros
+P80M,Classifying Triangles,Classifying Triangles,Clasificación de triángulos
+P80N,Classifying Triangles and Quadrilaterals,Classifying Triangles and Quadrilaterals,Clasificación de triángulos y cuadriláteros
+P81A,Transformations on a Plane: Rotations,Transformations on a Plane: Rotations,Transformaciones sobre el plano: Rotaciones
+P81B,Transformations on a Plane: Translations,Transformations on a Plane: Translations,Transformaciones sobre el plano: Traslaciones
+P81C,Transformations on a Plane: Dilations,Transformations on a Plane: Enlargements,Transformaciones sobre el plano: Dilataciones
+P81D,Transformations on a Plane: Reflections,Transformations on a Plane: Reflections,Transformaciones sobre el plano: Reflexiones
+P82,Rounding Decimals,Rounding Decimals,Redondeando los decimales
+P90A,Partitioning Rectangles and Circles,Partitioning Rectangles and Circles,Partición de rectángulos y círculos
+P90B,"Partitioning with Halves, Thirds and Fourths","Partitioning with Halves, Thirds and Quarters","Partición con mitades, tercios y cuartos"
+P90C,Partitioning Shapes into Equal Parts,Partitioning Shapes into Equal Parts,Partición de figuras en partes iguales
+P91,Identifying Symmetrical and Asymmetrical Shapes,Identifying Symmetrical and Asymmetrical Shapes,Identificación de figuras simétricas y asimétricas
+P92,Partitioning with Square Units,Partitioning with Square Units,Partición con unidades cuadradas
+P93,Adding and Subtracting Fractions,Adding and Subtracting Fractions,Sumando y restando fracciones
+P94A,Patterning with Shapes,Patterning with Shapes,Patrones con formas
+P94B,Patterning with Shapes,Patterning with Shapes,Patrones con formas
+P94C,Patterning with Counting,Patterning with Counting,Patrones al contar
+P94D,Patterning with Counting,Patterning with Counting,Patrones al contar
+P94E,Patterning with Counting,Patterning with Counting,Patrones al contar
+P94F,Patterning in Function Tables,Patterning in Function Tables,Patrones en tablas de funciones
+P94G,Patterning in Function Tables,Patterning in Function Tables,Patrones en tablas de funciones
+P95,Translating Expressions,Translating Expressions,Traduciendo expresiones
+P96,Finding Perimeter and Area,Finding Perimeter and Area,Encontrar el perímetro y el área
+P97A,Ordering Objects by Volume,Ordering Objects by Volume,Ordenar los objetos por volumen
+P97B,Estimating the Volume of Objects,Estimating the Volume of Objects,Estimar el volumen de los objetos
+P97C,Measuring the Volume of Containers,Measuring the Volume of Containers,Medir el volumen de los contenedores
+P97D,Ordering Objects by Mass,Ordering Objects by Mass,Ordenar los objetos de acuerdo a su masa
+P97E,Comparing Mass and Volume,Comparing Mass and Volume,Comparación de masa y volumen
+P98A,Measuring Volume with Cubes,Measuring Volume with Cubes,Medir el volumen con cubos
+P98B,Creating Equations to Determine Volume,Creating Equations to Determine Volume,Crear ecuaciones para calcular el volumen
+G09,Finding Number Pairs to 1000,Finding Number Pairs to 1000,Encontrar pares de números hasta 1000
+G10,Finding Number Pairs 150 to 200,Finding Number Pairs 150 to 200,Encontrar pares de números de 150 a 200
+P99,Identifying how Objects are Measured,Identifying how Objects are Measured,Identificar cómo se miden objetos
+P100,Measuring Objects,Measuring Objects,Midiendo objetos
+P101,Measuring Objects with Rulers,Measuring Objects with Rulers,Midiendo objetos con reglas
+P102A,Translations on a Coordinate Plane,Translations on a Coordinate Plane,Traslaciones en un plano cartesiano
+P102B,Reflections on a Coordinate Plane,Reflections on a Coordinate Plane,Reflexiones en un plano cartesiano
+P102C,Rotations on a Coordinate Plane,Rotations on a Coordinate Plane,Rotaciones en un plano cartesiano
+P102D,Dilations on a Coordinate Plane,Enlargements on a Coordinate Plane,Dilataciones en un plano coordinado
+P103,Matching Expressions to Visuals,Matching Expressions to Visuals,Coincidencia de expresiones y visuales
+P104A,"Complementary, Supplementary, Vertical Angles","Complementary, Supplementary, Vertical Angles",Relaciones entre ángulos
+P104B,Parallels and Triangles,Parallels and Triangles,Paralelos y triángulos
+P105,Radicals,Radicals,Radicales
+P106,Rules of Exponents,Rules of Indices,Reglas de los exponentes
+P107,Rewriting Expressions,Rewriting Expressions,Reescribir expresiones
+P64E,Using Clocks & Telling Time III,Using Clocks & Telling Time III,Uso del reloj y decir la hora III
+P108,Analyzing Variables,Analysing Variables,Análisis de variables
+P109A,One-Step Equations & Inequalities,One-Step Equations & Inequalities,Ecuaciones y desigualdades de un paso
+P109B,Two-Step Equations & Inequalities,Two-Step Equations & Inequalities,Ecuaciones de dos pasos y desigualdades
+P109C,Multi-Step Equations & Inequalities,Multi-Step Equations & Inequalities,Ecuaciones y desigualdades de varios pasos
+P110,Approximating Irrationals,Approximating Irrationals,Aproximación de irracionales
+P111A,Representing 3D Solids with Nets,Representing 3D Solids with Nets,Representación de sólidos 3D con redes
+P111B,Identifying the Cross Section of a 3D Solid,Identifying the Cross Section of a 3D Solid,Identificación de la sección transversal de un sólido 3D
+P112,Ordering Objects by Height,Ordering Objects by Height,Ordenamiento de objetos por altura
+P113A,Identifying Shapes,Identifying Shapes,Identificación de formas
+P113B,Identifying Coins,Identifying Coins,Identificación de monedas
+P114A,Area of Polygons,Area of Polygons,Área de polígonos
+P114B,Area and Circumference of Circles,Area and Circumference of Circles,Área y circunferencia de círculos
+P115A,Volume and Surface Area of Rectangular Prisms,Volume and Surface Area of Cuboids,Volumen y área de superficie de prismas rectangulares
+P115B,Volume and Surface Area of Prisms and Pyramids,Volume and Surface Area of Prisms and Pyramids,Volumen y área de superficie de prismas y pirámides
+P115C,Volume and Surface Area of Curved Shapes,Volume and Surface Area of Curved Shapes,"Volumen y área de superficie de cilindros, conos y esferas"
+P116A,Identifying Numbers as Even or Odd,Identifying Numbers as Even or Odd,Identificar números como pares o impares
+P116B,Identifying Three-Digit Numbers as Even or Odd,Identifying Three-Digit Numbers as Even or Odd,Identificar números de tres dígitos como pares o impares
+P117,Ordering Objects by Length,Ordering Objects by Length,Ordenando objetos por longitud
+P118,Calculating Statistics on Line Plots,Calculating Statistics on Line Plots,Calculando estadísticas en gráficas de línea
+P119A,Visualizing 2D Composite Shapes,Visualizing 2D Compound Shapes,Visualizando formas compuestas 2D
+P119B,Visualizing 2D and 3D Composite Shapes,Visualizing 2D and 3D Compound Shapes,Visualizando formas compuestas 2D y 3D
+P120,Matching Coins and Bills to Amounts of Money,Matching Coins and Notes to Amounts of Money,Emparejando monedas y billetes con cantidades de dinero
+P121,Naming the Position of Objects,Naming the Position of Objects,Nombrando la posición de objetos
+P122A,Add and Subtract With Word Problems 1,Add and Subtract With Word Problems 1,Sumar y restar con problemas de palabras 1
+P122B,Add and Subtract With Word Problems 2,Add and Subtract With Word Problems 2,Sumar y restar con problemas de palabras 2
+P122C,Add and Subtract With Word Problems 3,Add and Subtract With Word Problems 3,Sumar y restar con problemas de palabras 3
+P122D,Add and Subtract With Word Problems 1,Add and Subtract With Word Problems 1,Sumar y restar con problemas de palabras 1
+P122E,Add and Subtract With Word Problems 2,Add and Subtract With Word Problems 2,Sumar y restar con problemas de palabras 2
+P122F,Add and Subtract With Word Problems 3,Add and Subtract With Word Problems 3,Sumar y restar con problemas de palabras 3
+P80O,Constructing Simple Polygons,Constructing Simple Polygons,Construyendo polígonos simples
+P80P,Classifying Shapes,Classifying Shapes,Clasificación formas
+P123,Identifying Multiples,Identifying Multiples,Identificar múltiplos
+P124,"Identifying Numbers as Prime, Composite, or Neither","Identifying Numbers as Prime, Composite, or Neither","Identificar números como primos, compuestos o ninguno de los dos"
+P125,Adding Fractions with Unlike Denominators,Adding Fractions with Unlike Denominators,Sumar fracciones con denominadores diferentes
+P126,Reasoning with Operations,Reasoning with Operations,Razonamiento con Operaciones
+P135A,"Ordering Numbers up to 1,200","Ordering Numbers up to 1,200",Ordenando números hasta 1200
+P135B,"Ordering Numbers up to 100,000","Ordering Numbers up to 100,000",Ordenando números hasta 100 000
+P135C,Ordering Numbers including Decimals,Ordering Numbers including Decimals,Ordenando números incluyendo decimales
+P136,Translating between Tables and Graphs,Translating between Tables and Graphs,Conversión entre cuadros y gráficos
+P134,Building Equivalent Fractions,Building Equivalent Fractions,Creando fracciones equivalentes
+P133,Comparing Decimals,Comparing Decimals,Comparando decimales
+P131,Counting Values of Coins by Skip Counting,Counting Values of Coins by Skip Counting,Calculando los valores de monedas contando de dos en dos
+P132,Counting Values of Mixed Coins by Skip Counting,Counting Values Mixed Coins by Skip Counting,Calculando los valores de diferentes monedas contando de dos en dos
+P129,Locating Numbers to 100 on a Number Line,Locating Numbers to 100 on a Number Line,Localiza números en la recta numérica
+P130,Fraction and Decimal Equivalence,Fraction and Decimal Equivalence,Equivalencia de fracciones y decimales
+P128,Comparing Fractions,Comparing Fractions,Comparando fracciones
+P127,Build and Compare Numbers with a Math Rack,Build and Compare Numbers with a Maths Rack,Crea y compara números utilizando un ábaco
+P94H,Identifying Rules in Tables,Identifying Rules in Tables,Identificando reglas en cuadros
+P94I,Identifying Rules in Tables and Graphs,Identifying Rules in Tables and Graphs,Identificando reglas en cuadros y gráficos

@@ -1,0 +1,12 @@
+season_unique, start_date, end_date, supported_engagements, comment
+"winterZeroSurprises", 01/01, 01/16, "primary, paperfrenzy, coolfrost", "Countdown (week 7) theme adventure park in primary. Wallpapers in paperfrenzy and coolfrost."
+"winterOneSurprises", 12/27, 01/03, "primary, paperfrenzy, coolfrost", "Countdown (week 6) theme adventure park in primary. Wallpapers in paperfrenzy and coolfrost."
+"winterTwoSurprises", 12/20, 12/27, "primary, paperfrenzy, coolfrost", "Countdown (week 5) theme adventure park in primary. Wallpapers in paperfrenzy and coolfrost."
+"winterThreeSurprises", 12/13, 12/20, "primary, paperfrenzy, coolfrost", "Countdown (week 4) theme adventure park in primary. Wallpapers in paperfrenzy and coolfrost."
+"fallFourSurprises", 12/06, 12/13, "primary, paperfrenzy, coolfrost", "Countdown (week 3) theme adventure park in primary. Wallpapers in paperfrenzy and coolfrost."
+"fallFiveSurprises", 11/29, 12/06, "primary, paperfrenzy, coolfrost", "Countdown (week 2) theme adventure park in primary. Wallpapers in paperfrenzy and coolfrost."
+"fallSixSurprises", 11/22, 11/29, "primary, paperfrenzy, coolfrost", "Countdown (week 1) theme adventure park in primary. Wallpapers in paperfrenzy and coolfrost."
+"winter", 12/13, 03/01, "primary, paperfrenzy, coolfrost", "Themed adventure park in primary. Wallpapers, avatars, music in paperfrenzy and coolfrost."
+"fall", 10/01, 12/15, "primary, paperfrenzy, coolfrost", "Fall-themed adventure park in primary. Fall seasonal items (wallpapers, avatars, and audio)"
+"spring", 03/01, 05/15, "paperfrenzy, coolfrost", "Primary uses default assets. Spring seasonal items (wallpapers, avatars, and audio)"
+"summer", 05/15, 10/01, "paperfrenzy, coolfrost", "Primary uses default assets. Summer seasonal items (wallpapers, avatars, and audio)"

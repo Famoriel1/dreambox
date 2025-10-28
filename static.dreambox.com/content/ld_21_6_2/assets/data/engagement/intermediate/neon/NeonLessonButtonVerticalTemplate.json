@@ -1,0 +1,46 @@
+{
+    "symbolName": "layout_button_vertical",
+    "type": "Layout",
+    "tree": {
+        "children": {
+            "pnlBackground": {
+                "children": {
+                    "nineslice_8_8_84_84": {}
+                }
+            },
+            "prxLessonIcon": {
+                "type": "Proxy"
+            },
+            "imgVideoPlay": {
+                "type": "Image",
+                "visible": false
+            },
+            "lblTitle": {
+                "type": "Label"
+            },
+            "bdgTagLabel": {
+                "children": {
+                    "prxTagLabelBackground": {
+                        "children": {
+                            "nineslice_11_0_11_22": {}
+                        },
+                        "type": "Proxy"
+                    },
+                    "lblTagLabel": {
+                        "type": "Label"
+                    }
+                }
+            },
+            "bdgTagIcon": {
+                "children": {
+                    "prxTagIconBackground": {
+                        "type": "Proxy"
+                    },
+                    "prxTagIcon": {
+                        "type": "Proxy"
+                    }
+                }
+            }
+        }
+    }
+}

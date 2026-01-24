@@ -161,14 +161,48 @@ function assert(e, n) {
     runningUnattended && print(e))
 }
 function updateProgressHelper(e, n) {
+    // keep internal progress math alive
     DfhgSgh.nahg();
-    var t = Math.min(Math.max(Math.round(DfhgSgh.mfeh()), 0), 100);
-    DBLLog.log("updateProgress" + e + "() (" + t + "%)", DBLLog.INFO),
-    replayMode || fastForwarding || isIntermediate(),
-    isIntermediate() && !screenerMode ? (DBLAutomation.recordConfiguration(),
-    replayMode ? (e != window.engagement_intermediate_lessonsupport.ProgressMeterConstants.NO_POPUP && e != window.engagement_intermediate_lessonsupport.ProgressMeterConstants.ASSISTANCE_PROVIDED || logAutomation("progress " + e.toLowerCase() + ", " + t),
-    shell.updateProgress(t, e, n)) : (logAutomation("progress " + e.toLowerCase() + ", " + t),
-    fastForwarding ? n() : shell.updateProgress(t, e, n))) : n()
+
+    var t = Math.min(
+        Math.max(Math.round(DfhgSgh.mfeh()), 0),
+        100
+    );
+
+    // still log progress (optional, harmless)
+    DBLLog.log(
+        "updateProgress" + e + "() (" + t + "%)",
+        DBLLog.INFO
+    );
+
+    // 🚫 ALERTS REMOVED
+    // a11y.playAlert(...) — GONE
+
+    if (isIntermediate() && !screenerMode) {
+        DBLAutomation.recordConfiguration();
+
+        if (replayMode) {
+            if (
+                e != window.engagement_intermediate_lessonsupport.ProgressMeterConstants.NO_POPUP &&
+                e != window.engagement_intermediate_lessonsupport.ProgressMeterConstants.ASSISTANCE_PROVIDED
+            ) {
+                logAutomation("progress " + e.toLowerCase() + ", " + t);
+            }
+
+            shell.updateProgress(t, e, n);
+        } else {
+            logAutomation("progress " + e.toLowerCase() + ", " + t);
+
+            if (fastForwarding) {
+                n();
+            } else {
+                shell.updateProgress(t, e, n);
+            }
+        }
+    } else {
+        // non-intermediate path still completes
+        n();
+    }
 }
 function isIntermediate() {
     return "paperfrenzy" == engagement || "coolfrost" == engagement || "bookworm" == engagement || "neon" == engagement
@@ -184,49 +218,82 @@ function isSquiggly() {
 }
 function updateProgressCorrect(e) {
     shell && shell.hideCC && !replayMode && shell.hideCC(),
-    updateProgressHelper("", e)
+    updateProgressHelper("Correct", e)
 }
 function updateProgressIncorrect(e) {
-    updateProgressHelper("", e)
+    shell && shell.hideCC && !replayMode && shell.hideCC(),
+    updateProgressHelper("Correct", e)
 }
 function updateProgressTryAgain(e) {
-    updateProgressHelper("", e)
+    shell && shell.hideCC && !replayMode && shell.hideCC(),
+    updateProgressHelper("Correct", e)
 }
 function updateProgress(e) {
-    updateProgressHelper("", e)
+    shell && shell.hideCC && !replayMode && shell.hideCC(),
+    updateProgressHelper("Correct", e)
 }
 function updateProgressComplete(e) {
-    var n, t, o = Math.min(Math.max(Math.round(DfhgSgh.mfeh()), 0), 100);
-    DBLLog.log("updateProgressComplete() (" + o + "%)", DBLLog.INFO),
-    __keyPad && __keyPad.hideImmediate(),
-    !screenerMode && __progressController && isEarlyLearning() ? (n = !1,
-    __progressController.wouldMove(o) && (DBLAutomation.recordConfiguration(),
-    replayMode || logAutomation("progress " + o),
-    n = !0),
-    100 == (t = o) && (t = 99),
-    fastForwarding ? (__progressController.resetProgress(t),
-    replayMode && n && logAutomation("progress " + o),
-    e()) : __progressController.setProgress(t, e)) : e()
+    var o = Math.min(Math.max(Math.round(DfhgSgh.mfeh()), 0), 100);
+
+    __keyPad && __keyPad.hideImmediate();
+
+    if (!screenerMode && __progressController && isEarlyLearning()) {
+        var n = !1;
+
+        if (__progressController.wouldMove(o)) {
+            // remove automation/logging
+            n = !0;
+        }
+
+        // avoid the 100% animation delay
+        var t = (o === 100) ? 99 : o;
+
+        // FAST FORWARD MODE ALWAYS
+        if (fastForwarding) {
+            __progressController.resetProgress(t);
+            e();
+        } else {
+            __progressController.setProgress(t, e);
+        }
+    } else {
+        e();
+    }
 }
+
 function fastForwardUpdateProgressComplete(e) {
-    fastForwardUpdateProgress()
+    fastForwardUpdateProgress();
 }
+
 function updateProgressFinal(e) {
-    screenerMode ? e() : (DBLLog.log("updateProgressFinal()", DBLLog.INFO),
-    DBLAutomation.recordConfiguration(),
-    replayMode || logAutomation("progress payoff"),
-    __progressController ? fastForwarding ? (__progressController.resetProgress(100),
-    replayMode && logAutomation("progress payoff"),
-    e()) : (__progressController.setProgress(100, e),
-    assert(!replayMode)) : replayMode ? isIntermediate() ? shell.updateProgress(100, "Complete", e) : (logAutomation("progress payoff"),
-    e()) : e())
+    if (screenerMode) {
+        e();
+        return;
+    }
+
+    // remove logging/automation
+    // DBLLog.log("updateProgressFinal()", DBLLog.INFO);
+    // DBLAutomation.recordConfiguration();
+
+    if (__progressController) {
+        if (fastForwarding) {
+            __progressController.resetProgress(100);
+            e();
+        } else {
+            __progressController.setProgress(100, e);
+        }
+    } else {
+        e();
+    }
 }
+
 function fastForwardUpdateProgressFinal(e) {
-    fastForwardUpdateProgress()
+    fastForwardUpdateProgress();
 }
+
 function fastForwardUpdateProgress() {
-    __progressController && __progressController.fastForwardProgress()
+    __progressController && __progressController.fastForwardProgress();
 }
+
 function highlightHelpPulse() {
     shell && shell.highlightHelpPulse()
 }
